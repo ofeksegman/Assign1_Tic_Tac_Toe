@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         // Set a new image resource when clicked
         imageButton.setOnClickListener {
-            imageButton.setImageResource(R.drawable.X_logo) // Replace 'new_image' with your drawable resource name
+            imageButton.setImageResource(R.drawable.x_logo) // Replace 'new_image' with your drawable resource name
     }
 }
     }
