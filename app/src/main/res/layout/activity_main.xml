@@ -12,8 +12,8 @@
         android:id="@+id/imageButton21"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginRight="50dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton20"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -23,7 +23,8 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="225dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginRight="50dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -33,6 +34,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="225dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@id/imageButton20"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -41,7 +43,8 @@
         android:id="@+id/imageButton22"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginRight="80dp"
+        android:layout_marginEnd="50dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton21"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -51,6 +54,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="225dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@id/imageButton10"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -59,6 +63,7 @@
         android:id="@+id/imageButton11"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/imageButton21"
         app:layout_constraintTop_toBottomOf="@+id/imageButton10"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -67,7 +72,7 @@
         android:id="@+id/imageButton02"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="8dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/imageButton12"
         app:layout_constraintTop_toBottomOf="@+id/imageButton01"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -76,6 +81,7 @@
         android:id="@+id/imageButton01"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@id/imageButton11"
         app:layout_constraintTop_toBottomOf="@id/imageButton00"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -84,8 +90,7 @@
         android:id="@+id/imageButton12"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="9dp"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/imageButton22"
         app:layout_constraintTop_toBottomOf="@+id/imageButton11"
         app:srcCompat="@android:drawable/alert_light_frame" />
@@ -95,10 +100,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
-        android:layout_marginRight="120dp"
         android:text="TicTacToe"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -106,10 +111,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="570dp"
-        android:layout_marginRight="200dp"
         android:text="X play"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
@@ -117,9 +122,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="33dp"
-        android:layout_marginRight="200dp"
         android:text="Restart"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/StatusBtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
